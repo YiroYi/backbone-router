@@ -16,15 +16,13 @@
     <body>
         <nav id="nav">
             <ul>
-                <li><a href="Albums.html">Albums</a></li>
-                <li><a href="Artists.html">Artists</a></li>
-                <li><a href="Genres.html">Genres</a></li>
+                <li data-url="albums">Albums</li>
+                <li data-url="artist">Artists</li>
+                <li data-url="genres">Genres</li>
             </ul>
         </nav>
         <div id="container"></div>
-        <script src="js/lib/jquery-min.js"></script>
-        <script src="js/lib/underscore-min.js"></script>
-        <script src="js/lib/backbone-min.js"></script>
-        <script src="js/main.js"></script>
+        <div id="song-container"></div>
+        <script src="js/lib/require.js" data-mail="js/main"></script>
     </body>
 </html>
